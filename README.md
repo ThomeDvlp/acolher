@@ -39,7 +39,7 @@ Com isso, surge o projeto **acolher**, que busca conectar, através da tecnologi
 
 Assim, após _2 dias_ de intensa dedicação e entrega da equipe, na perspectiva de projetar um sistema capaz de realmente causar um impacto social, trazendo uma nova perspectiva de vida para mulheres que buscam suporte.
 
-Tomamos a decisão das tecnologias a serem utilizadas (**ReactJs**,**ChakraUi**), por motivos das mesmas estarem no escopo de conhecimento dos colaboradores e pelo tempo hábil que tinhamos para realizar a entrega (_2 dias_). Buscamos garantir semântica e responsividade a nossa aplicação para acessibilizar seu uso em qualquer dispositivo.
+Tomamos a decisão das tecnologias a serem utilizadas (**ReactJs**,**ChakraUi**), por motivos das mesmas estarem no escopo de conhecimento dos colaboradores e pelo tempo hábil que tinhamos para realizar a entrega. Buscamos garantir semântica e responsividade a nossa aplicação para acessibilizar seu uso em qualquer dispositivo.
 
 <hr></hr>
 
