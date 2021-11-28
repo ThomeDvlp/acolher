@@ -14,24 +14,21 @@ import BannerFooter from "../../assets/images/banner-footer.png";
 export const About = () => {
   return (
     <>
-      <Flex
-        w="100%"
-        mb="100px"
-        borderTopRadius="75px"
-        bg="white"
-        p="32px 32px"
-        position="relative"
-        mt="230px"
-      >
-        <Image
-          position="absolute"
-          src={BannerFooter}
-          alt="Mulher Negro"
-          zIndex="-1"
-          top={["-25%", "-40%", "-60%"]}
-          right="0"
-          width="100%"
+      <Box>
+        <Box
+          backgroundImage={`linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.5)
+        ), url(${BannerFooter})`}
+          borderTopRadius="75px"
+          backgroundRepeat="no-repeat"
+          backgroundPosition="top"
+          backgroundSize="cover"
+          role="banner"
+          height={["230px", "300px", "400px", "400px"]}
         />
+      </Box>
+      <Flex w="100%" mb="100px" bg="white" p="32px 32px" position="relative">
         <VStack w="100%">
           <Image src={Logo} pb="32px" />
           <Heading as="h2" textAlign="center">

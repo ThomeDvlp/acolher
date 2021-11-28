@@ -26,27 +26,36 @@ export const Header = () => {
   window.addEventListener("scroll", menuResize);
   return (
     <Box w="100%" position="relative">
-      <Box position="relative">
-        <Image
-          src={HeaderBanner}
-          alt="Mulher Negra"
+      <Flex position="relative" justifyContent="center">
+        <Box
+          backgroundImage={`linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.5)
+          ), url(${HeaderBanner})`}
+          backgroundRepeat="no-repeat"
+          backgroundPosition="center"
+          backgroundSize="cover"
           role="banner"
           borderBottomRadius="55px"
-          height="230px"
+          height={["230px", "300px", "400px", "400px"]}
           w="100%"
           mt="50px"
-        ></Image>
+        ></Box>
+
         <Text
+          m="0 auto"
           position="absolute"
           bottom="10px"
           color="white"
           textAlign="center"
-          fontSize="14px"
+          fontSize={["1rem", "1rem", "1.5rem", "1.5rem"]}
+          maxW="40ch"
           p="0 24px"
+          textShadow="-2px -1px 14px white"
         >
           Bem-vinda, encontre uma rede de apoio rápido e fácil
         </Text>
-      </Box>
+      </Flex>
       <Box
         as="nav"
         position="fixed"
