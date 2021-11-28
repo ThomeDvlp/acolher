@@ -1,14 +1,16 @@
-import { Flex } from "@chakra-ui/react";
-import Card from "./components/Cards/Card";
-import { Footer } from "./components/Footer";
+import Card from "./components/Card";
+import { data } from "./utils/DataSearch";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 function App() {
   return (
-    <Flex w="100vw" h="150vh" margin="0" flexDirection="column">
+    <div>
       <Header />
-      <Card />
+      {data.map((item, index) => (
+        <Card content={item} key={index} />
+      ))}
       <Footer />
-    </Flex>
+    </div>
   );
 }
 
