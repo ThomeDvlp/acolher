@@ -10,20 +10,10 @@ import {
   Text,
 } from "@chakra-ui/react";
 import Logo from "../../assets/images/logo-acolher.png";
-import EmergencyButton from "../../assets/images/emergency-button.png";
+import EmergencyButton from "../../assets/images/emergency-button.svg";
 import HeaderBanner from "../../assets/images/banner-header.png";
 
 export const Header = () => {
-  const [heightMenu, setHeightMenu] = useState(true);
-  const [navBarColor, setNavBarColor] = useState("transparent");
-
-  const menuResize = () => {
-    if (window.screenY > 80) {
-      setHeightMenu(false);
-    }
-  };
-
-  window.addEventListener("scroll", menuResize);
   return (
     <Box w="100%" position="relative">
       <Flex position="relative" justifyContent="center">
@@ -51,7 +41,6 @@ export const Header = () => {
           fontSize={["1rem", "1rem", "1.5rem", "1.5rem"]}
           maxW="40ch"
           p="0 24px"
-          textShadow="-2px -1px 14px white"
         >
           Bem-vinda, encontre uma rede de apoio rápido e fácil
         </Text>
@@ -63,7 +52,6 @@ export const Header = () => {
         w="100%"
         display="flex"
         justifyContent="space-between"
-        color={navBarColor}
         p="8px 8px"
         bg="black"
       >
@@ -86,6 +74,7 @@ export const Header = () => {
                   src={EmergencyButton}
                   alt="Botão de emergência"
                   w="38px"
+                  fontSize="27px"
                 />
               </a>
             }

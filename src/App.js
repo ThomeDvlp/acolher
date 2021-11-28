@@ -1,4 +1,4 @@
-import Card from "./components/Card/Card";
+import { Card } from "./components/Card/Card.jsx";
 import { data } from "./utils/DataSearch";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
