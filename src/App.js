@@ -3,6 +3,7 @@ import { data } from "./utils/DataSearch";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Flex, Box } from "@chakra-ui/react";
+
 function App() {
   return (
     <Box bgGradient="linear(to-b, yellow.100, pink.500)">

@@ -15,7 +15,7 @@ export const Footer = () => {
         width="100%"
         as="footer"
         boxShadow="0px -8px 15px rgba(0, 0, 0, 0.1)"
-        p={["16px 8px", "16px 8px", "16px 64px", "16px 64px"]}
+        p={["8px 8px", "8px 8px", "8px 64px", "8px 64px"]}
         borderTopRadius="30px"
         bg="white"
       >
@@ -36,6 +36,7 @@ export const Footer = () => {
             color="white"
             bg="pink.500"
             onClick={downloadPdf}
+            _hover={{ background: "black", color: "white" }}
           >
             Baixar PDF
             <DownloadIcon />
