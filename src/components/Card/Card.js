@@ -5,6 +5,7 @@ import { Link } from "@chakra-ui/react";
 
 export default function Card({ content, schemaColor }) {
   return (
+
     <Flex
       p="8px"
       bg={schemaColor % 2 === 0 ? "yellow.100" : "white.100"}
@@ -22,7 +23,7 @@ export default function Card({ content, schemaColor }) {
         </Text>
         <HStack justifyContent="space-between" p="3" w="100%">
           <Box as="span" color="pink.500" fontSize="sm">
-            {content.portal}
+            {content.portal
           </Box>
           <Link color="pink.500" fontSize=".7rem" isExternal>
             Acessar a página <ArrowForwardIcon />
