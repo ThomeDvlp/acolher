@@ -6,7 +6,8 @@ export const theme = extendTheme({
     body: "Poppins",
   },
   colors:{  
-    white50: '#F2F2F2',
-    yellow: {100:'#F2C94C'} 
+    white: {70:'#F2F2F2'},
+    yellow: {100:'#F2C94C'},
+    pink: {500:'#E2236F'} 
     }
   })

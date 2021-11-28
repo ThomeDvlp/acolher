@@ -1,4 +1,4 @@
-import Card from "./components/Card";
+import Card from "./components/Card/Card";
 import { data } from "./utils/DataSearch";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
