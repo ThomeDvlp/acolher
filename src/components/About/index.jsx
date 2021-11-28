@@ -31,14 +31,17 @@ export const About = () => {
       <Flex w="100%" mb="100px" bg="white" p="32px 32px" position="relative">
         <VStack w="100%">
           <Image src={Logo} pb="32px" />
-          <Heading as="h2" textAlign="center">
-            Como podemos te ajudar?
+          <Heading as="h4" textAlign="center" fontSize="24px" mb='30px'>
+            Quem Somos
           </Heading>
-          <Text as="p" textAlign="center" maxW="800px">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis odit reprehenderit ab quibusdam soluta deserunt expedita
-            numquam, vel eius id debitis! Inventore et perspiciatis qui maxime
-            dolor sed ipsam neque.
+          <Text as="p" textAlign="start" maxW="800px" p="5px">
+          A ausência de suporte judiciário, a falta de proteção à vítima, a reprovação social e até o desconhecimento sobre como agir após uma agressão são alguns dos motivos que causam a desistência das denúncias. 
+          </Text>
+          <Text as="p" textAlign="start" maxW="800px" p='5px'>
+          A partir disso, o projeto aColher nasce com o objetivo de conectar mulheres vítimas de violência com Instituições confiáveis, que tem o propósito de prestar assistência, seja psicológica, jurídica ou financeira.
+          </Text>
+          <Text as="p" textAlign="start" maxW="800px" p='5px'>
+          Assim, imaginamos o quão difícil foi chegar até aqui, mas não tenha medo, nós vamos te ajudar.
           </Text>
           <Text color="pink.500" p="32px 0" textAlign="center">
             apoio • acolhimento • união • esperança

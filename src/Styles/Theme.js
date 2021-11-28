@@ -10,5 +10,6 @@ export const theme = extendTheme({
     yellow: { 100: "#F2C94C" },
     pink: { 500: "#E2236F" },
     gray: { 100: "#888888" },
+    dark: { 100: "#424242"}
   },
 });

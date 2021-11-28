@@ -22,22 +22,29 @@ export const Footer = () => {
         <HStack w="100%" justifyContent="center">
           <Box>
             <Text
-              textAlign="center"
+              textAlign="start"
               fontSize="11px"
               mr={["0", "0", "32px", "32px"]}
             >
-              Vai ficar sem internet? baixe o conteúdo agora
+              Vai ficar sem internet? 
+            </Text>
+            <Text
+              textAlign="start"
+              fontSize="11px"
+              mr={["0", "0", "32px", "32px"]}
+            >
+              Baixe o conteúdo agora
             </Text>
           </Box>
           <Button
             fontSize=".8rem"
             borderRadius="32px"
-            width="200px"
+            width="150px"
             color="white"
             bg="pink.500"
             onClick={downloadPdf}
           >
-            Baixar PDF
+            baixar pdf
             <DownloadIcon />
           </Button>
         </HStack>

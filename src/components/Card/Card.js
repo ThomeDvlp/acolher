@@ -15,20 +15,25 @@ export default function Card({ content, schemaColor }) {
       borderRadius="15"
     >
       <VStack w="100%">
-        <Text as="p" textAlign="justify" p="0 16px">
-          {content.description}
-        </Text>
-        <Text color="gray.100" fontSize=".8rem">
-          {content.type} • {content.category}
-        </Text>
-        <HStack justifyContent="space-between" p="3" w="100%">
+      <HStack justifyContent="space-between" p="3" w="100%">
           <Box as="span" color="pink.500" fontSize="sm">
             {content.name}
           </Box>
+          
           <Link href={content.url} color="pink.500" fontSize=".7rem" isExternal>
-            Acessar a página <ArrowForwardIcon />
+            acessar a página <ArrowForwardIcon />
           </Link>
         </HStack>
+        <Text as="p" textAlign="start" p="0 16px">
+          {content.description}
+        </Text>
+        <Text as="p" textAlign="start" p="0 16px">
+          {content.diferencial}
+        </Text>
+        <Text color="dark.100" fontSize=".8rem" p="16px">
+          {content.type} • {content.category}
+        </Text>
+        
       </VStack>
     </Flex>
   );
