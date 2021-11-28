@@ -1,3 +1,4 @@
+
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Box, Badge, Flex, VStack, HStack, Text } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/react";
@@ -31,3 +32,4 @@ export default function Card({ content, schemaColor }) {
     </Flex>
   );
 }
+
