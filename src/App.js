@@ -1,9 +1,12 @@
-import Card from './components/Cards/Card'
+import { Flex } from "@chakra-ui/react";
+import Card from "./components/Cards/Card";
+import { Footer } from "./components/Footer";
 function App() {
   return (
-    <div>
-      <Card/>
-    </div>
+    <Flex w="100vw" h="100vh" margin="0">
+      <Card />
+      <Footer />
+    </Flex>
   );
 }
 
