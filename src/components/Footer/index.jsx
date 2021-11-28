@@ -11,9 +11,6 @@ import { DownloadIcon } from "@chakra-ui/icons";
 import { About } from "../About";
 
 export const Footer = () => {
-  const downloadPdf = () => {
-    alert("baixando Pdf");
-  };
   return (
     <>
       <About></About>
@@ -54,6 +51,7 @@ export const Footer = () => {
             download="Rede-acolher.png"
             p="8px 16px"
             textAlign="center"
+            _hover={{ background: "black", color: "white" }}
           >
             baixar pdf
             <DownloadIcon />
