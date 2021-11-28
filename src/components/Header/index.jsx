@@ -48,7 +48,7 @@ export const Header = () => {
         <Box w="100%" display="flex">
           <Image
             src={Logo}
-            alt="Logo"
+            alt="Logo Acolher "
             aria-hidden="true"
             w="127px"
             h="30px"

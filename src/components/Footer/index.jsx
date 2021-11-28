@@ -39,7 +39,7 @@ export const Footer = () => {
             width="150px"
             color="white"
             bg="pink.500"
-            href="https://docs.google.com/uc?export=download&id=1uSj4Tarkt8KoBDIbxBfC5zvSNg4BJwRv"
+            href="https://docs.google.com/uc?export=download&id=1QGlKxB1njr2gPmBotB-LSeLWkkWhALb-"
             download="Rede-acolher.png"
             p="8px 16px"
             textAlign="center"

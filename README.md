@@ -1,14 +1,16 @@
-# aColher
+<img src="src/assets/images/logo-acolher.png"></img>
 
-Projeto realizado no **Hackathon "ProviHackParaTodos"** com a seguinte temática: como a tecnologia pessoas diversas por meio da tecnologias.
+Projeto realizado no **Hackathon "ProviHackParaTodos"** com a seguinte temática: "Como a tecnologia pode melhorar a vida de grupos diversos."
 
 A ausência de suporte judiciário, a falta de proteção à vítima, a reprovação social e até o desconhecimento sobre como agir após uma agressão são alguns dos motivos que causam a desistência das denúncias.
 
 A partir disso, o projeto aColher nasce com o objetivo de conectar mulheres vítimas de violência com Instituições confiáveis, que tem o propósito de prestar assistência, seja psicológica, jurídica ou financeira.
 
-Em meio a tantas alternativas que já existem, porém que as vezes não são de conhecimento das vítimas, por falta de informação, medo, reunimos algumas informações para ajudar.
+Em meio a tantas e diversas alternativas, porém que as vezes não são de conhecimento das vítimas, resolvemos reunir informaçõs no intuito de colaborar, trazendo uma lista detalhada de grupos que prestam notável serviço de suporte. Acolhendo a vítima nesse momento tão delicado, de fragilidade e de real risco de vida.
 
-Assim, imaginamos o quão difícil foi chegar até aqui, mas não tenha medo, nós vamos te ajudar.
+Assim, imaginamos o quão difícil e doloroso foi chegar até aqui! 
+
+Mas não tenha medo, nós vamos te ajudar.
 
 <hr></hr>
 
@@ -16,17 +18,22 @@ Assim, imaginamos o quão difícil foi chegar até aqui, mas não tenha medo, n�
 
 Nosso time, para este projeto, é composto por:
 
-- [Mateus Gava](https://github.com/prgMgava) - Front-End
-- [Roberto Tomé](https://github.com/ThomeDvlp) - Front-End
 - [Hanna Naara](https://www.linkedin.com/in/hanna-naara/) - Product Manager
-- [Pedro Lélis](https://github.com/holandalelis) - Back-End
-- [Leandro Júnior](https://www.linkedin.com/in/leandrojunior1996) - UI/UX
 - [Jacilene Moraes](https://www.linkedin.com/in/jacilenemoraesdematos/) - UI/UX
+- [Leandro Júnior](https://www.linkedin.com/in/leandrojunior1996) - UI/UX
+- [Mateus Gava](https://github.com/prgMgava) - Front-End
+- [Pedro Lélis](https://github.com/holandalelis) - Back-End
+- [Roberto Tomé](https://github.com/ThomeDvlp) - Front-End
+
+
 
 ## Ferramentas e tecnologias
 
-- ReactJs
-- Chakra Ui - estilização, componentes e icones
+- Mural- Discovery e Kanban
+- Figma- Prototipagem
+- ReactJs- Desenvolvimento de Front-End
+- Chakra Ui - Estilização, componentes e icones
+- Google Drive - Servir como Back-End armazenando e distribuíndo arquivo da Rede_Acolher em pdf.
 - Netlify - deploy
 
 <hr></hr>
@@ -39,7 +46,9 @@ Com isso, surge o projeto **acolher**, que busca conectar, através da tecnologi
 
 Assim, após _2 dias_ de intensa dedicação e entrega da equipe, na perspectiva de projetar um sistema capaz de realmente causar um impacto social, trazendo uma nova perspectiva de vida para mulheres que buscam suporte.
 
-Tomamos a decisão das tecnologias a serem utilizadas (**ReactJs**,**ChakraUi**), por motivos das mesmas estarem no escopo de conhecimento dos colaboradores e pelo tempo hábil que tinhamos para realizar a entrega. Buscamos garantir semântica e responsividade a nossa aplicação para acessibilizar seu uso em qualquer dispositivo.
+Tomamos a decisão pelo desenvolvimento 'MobileFirst', utilizando as tecnologias **ReactJs**,**ChakraUi**, por sua qualidades e por estarem no escopo de conhecimento dos colaboradores. 
+
+Aplicamos conceitos de desenvolviemto S.O.L.I.D. , Arquitetura Limpa. Buscando garantir semântica, responsividade, e manutabilidade a nossa aplicação.
 
 <hr></hr>
 
