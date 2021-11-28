@@ -34,16 +34,17 @@ export const Header = () => {
 
         <Text
           m="0 auto"
-          position="absolute"
+          position="absolute"   
           bottom="10px"
           color="white"
           textAlign="center"
-          fontSize={["1rem", "1rem", "1.5rem", "1.5rem"]}
+          fontSize={["1rem", "1rem", "1.5rem", "2rem"]}
           maxW="40ch"
           p="0 24px"
         >
-          Bem-vinda, encontre uma rede de apoio rápido e fácil
+          Bem-vinda, encontre uma rede de apoio. <br/>É rápido e fácil.
         </Text>
+        
       </Flex>
       <Box
         as="nav"
@@ -69,7 +70,7 @@ export const Header = () => {
         <Box>
           <Button
             children={
-              <a href="https://www.google.com/">
+              <a href="https://www.google.com/search?q=google+como+cuidar+de+plantas&sxsrf=AOaemvKT1p7uOdnj9Q6y89xObNmHaTGdWg:1638132970254&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi2laXu-Lv0AhUUqJUCHa1MCikQ_AUoAXoECAEQAw&biw=1280&bih=650&dpr=1.5">
                 <Image
                   src={EmergencyButton}
                   alt="Botão de emergência"
