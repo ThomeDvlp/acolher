@@ -11,20 +11,27 @@ export const Footer = () => {
         position="fixed"
         bottom="0"
         width="100%"
-        bg="gray"
         as="footer"
+        boxShadow="0px -8px 15px rgba(0, 0, 0, 0.1)"
         p={["16px 8px", "16px 8px", "16px 64px", "16px 64px"]}
+        borderTopRadius="30px"
       >
-        <HStack w="100%" justifyContent="space-between">
+        <HStack w="100%" justifyContent="center">
           <Box>
-            <Text>Bem vindo veja como podemos te ajudar</Text>
+            <Text
+              textAlign="center"
+              fontSize="11px"
+              mr={["0", "0", "32px", "32px"]}
+            >
+              Vai ficar sem internet? baixe o conteúdo agora
+            </Text>
           </Box>
           <Button
-            fontSize=".5rem"
-            bg="black"
+            fontSize=".8rem"
             borderRadius="32px"
             width="200px"
             color="white"
+            bg="pink.500"
             onClick={downloadPdf}
           >
             Baixar PDF
