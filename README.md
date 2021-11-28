@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# aColher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto realizado no **Hackathon "ProviHackParaTodos"** com a seguinte temática: como a tecnologia pessoas diversas por meio da tecnologias.
 
-## Available Scripts
+A ausência de suporte judiciário, a falta de proteção à vítima, a reprovação social e até o desconhecimento sobre como agir após uma agressão são alguns dos motivos que causam a desistência das denúncias.
 
-In the project directory, you can run:
+A partir disso, o projeto aColher nasce com o objetivo de conectar mulheres vítimas de violência com Instituições confiáveis, que tem o propósito de prestar assistência, seja psicológica, jurídica ou financeira.
 
-### `yarn start`
+Em meio a tantas alternativas que já existem, porém que as vezes não são de conhecimento das vítimas, por falta de informação, medo, reunimos algumas informações para ajudar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Assim, imaginamos o quão difícil foi chegar até aqui, mas não tenha medo, nós vamos te ajudar.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr></hr>
 
-### `yarn test`
+## Colaboradores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Nosso time, para este projeto, é composto por:
 
-### `yarn build`
+- [Mateus Gava](https://github.com/prgMgava) - Front-End
+- [Roberto Tomé](https://github.com/ThomeDvlp) - Front-End
+- [Hanna Naara](https://www.linkedin.com/in/hanna-naara/) - Product Manager
+- [Pedro Lélis](https://github.com/holandalelis) - Back-End
+- [Leandro Júnior](https://www.linkedin.com/in/leandrojunior1996) - UI/UX
+- [Jacilene Moraes](https://www.linkedin.com/in/jacilenemoraesdematos/) - UI/UX
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Ferramentas e tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ReactJs
+- Chakra Ui - estilização, componentes e icones
+- Netlify - deploy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<hr></hr>
 
-### `yarn eject`
+## O Processo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Após a formação da equipe para participar do **Hackaton Provi 2021**, com foco em **Diversidade**, decidimos aprofundar as pesquisas e incentivar os _"brainstormings"_, visando auxiliar e colaborar para uma sociedade mais diversa e igualitária. Assim, seguimos com a ideia de ajudar mulheres que sofreram agressões físicas, psicológicas e sociais.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Com isso, surge o projeto **acolher**, que busca conectar, através da tecnologia, mulheres vítimas de agressões, com instituições confiáveis.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Assim, após _2 dias_ de intensa dedicação e entrega da equipe, na perspectiva de projetar um sistema capaz de realmente causar um impacto social, trazendo uma nova perspectiva de vida para mulheres que buscam suporte.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Tomamos a decisão das tecnologias a serem utilizadas (**ReactJs**,**ChakraUi**), por motivos das mesmas estarem no escopo de conhecimento dos colaboradores e pelo tempo hábil que tinhamos para realizar a entrega. Buscamos garantir semântica e responsividade a nossa aplicação para acessibilizar seu uso em qualquer dispositivo.
 
-## Learn More
+<hr></hr>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Curadoria de links** - Links de apps, ongs, sites e podcasts que oferecem variados tipos de suporte
 
-### Code Splitting
+- **Botão de 'emergência'** - Em caso de emergência, a usuária pode clicar no botão fixo o topo da tela e então é direcionado a uma nova página externa o que cria um disfarce, assim você ficará camuflada e mais segura.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Documento para suporte offline** - Disponibilizamos um arquivo pdf contendo os principais endereços e telefones para solicitar suporte.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visite aColher
