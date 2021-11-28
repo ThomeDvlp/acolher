@@ -27,7 +27,21 @@ export const Header = () => {
   return (
     <Box w="100%" position="relative">
       <Box position="relative">
-        <Image
+        <Box
+          backgroundImage={`linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.5)
+          ), url(${HeaderBanner})`}
+          backgroundRepeat="no-repeat"
+          backgroundPosition="center"
+          backgroundSize="cover"
+          role="banner"
+          borderBottomRadius="55px"
+          height="230px"
+          w="100%"
+          mt="50px"
+        ></Box>
+        {/* <Image
           src={HeaderBanner}
           alt="Mulher Negra"
           role="banner"
@@ -35,7 +49,7 @@ export const Header = () => {
           height="230px"
           w="100%"
           mt="50px"
-        ></Image>
+        ></Image> */}
         <Text
           position="absolute"
           bottom="10px"
