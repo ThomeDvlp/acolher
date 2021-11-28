@@ -28,7 +28,7 @@ export const About = () => {
           height={["230px", "300px", "400px", "400px"]}
         />
       </Box>
-      <Flex w="100%" mb="100px" bg="white" p="32px 32px" position="relative">
+      <Flex w="100%" mb="100px" bg="white" p="32px 32px">
         <VStack w="100%">
           <Image src={Logo} pb="32px" />
           <Heading as="h4" textAlign="center" fontSize="24px" mb="30px">
