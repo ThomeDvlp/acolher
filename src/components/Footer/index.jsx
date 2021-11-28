@@ -1,5 +1,6 @@
 import { Container, HStack, Flex, Box, Button, Text } from "@chakra-ui/react";
 import { DownloadIcon } from "@chakra-ui/icons";
+import { About } from "../About";
 
 export const Footer = () => {
   const downloadPdf = () => {
@@ -7,6 +8,7 @@ export const Footer = () => {
   };
   return (
     <>
+      <About></About>
       <Flex
         position="fixed"
         bottom="0"
@@ -15,6 +17,7 @@ export const Footer = () => {
         boxShadow="0px -8px 15px rgba(0, 0, 0, 0.1)"
         p={["16px 8px", "16px 8px", "16px 64px", "16px 64px"]}
         borderTopRadius="30px"
+        bg="white"
       >
         <HStack w="100%" justifyContent="center">
           <Box>
