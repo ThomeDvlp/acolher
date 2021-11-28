@@ -1,8 +1,8 @@
-
+import Card from './components/Cards/Card'
 function App() {
   return (
     <div>
-      <h1>BaseAColher</h1>
+      <Card/>
     </div>
   );
 }
