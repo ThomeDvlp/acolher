@@ -19,13 +19,13 @@ export default function Card({ content, schemaColor }) {
           {content.description}
         </Text>
         <Text color="gray.100" fontSize=".8rem">
-          Atendimento psicológico • {content.category}
+          {content.type} • {content.category}
         </Text>
         <HStack justifyContent="space-between" p="3" w="100%">
           <Box as="span" color="pink.500" fontSize="sm">
             {content.name}
           </Box>
-          <Link color="pink.500" fontSize=".7rem" isExternal>
+          <Link href={content.url} color="pink.500" fontSize=".7rem" isExternal>
             Acessar a página <ArrowForwardIcon />
           </Link>
         </HStack>
