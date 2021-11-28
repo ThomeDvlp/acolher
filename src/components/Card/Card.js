@@ -16,14 +16,14 @@ export default function Card({ content, schemaColor }) {
     >
       <VStack w="100%">
         <Text as="p" textAlign="justify" p="0 16px">
-          {content.tema1}
+          {content.description}
         </Text>
         <Text color="gray.100" fontSize=".8rem">
-          Atendimento psicológico • Acolhimento
+          Atendimento psicológico • {content.category}
         </Text>
         <HStack justifyContent="space-between" p="3" w="100%">
           <Box as="span" color="pink.500" fontSize="sm">
-            {content.portal
+            {content.name}
           </Box>
           <Link color="pink.500" fontSize=".7rem" isExternal>
             Acessar a página <ArrowForwardIcon />

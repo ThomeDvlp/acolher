@@ -38,6 +38,6 @@ export const data = [{
   name: 'PenhaS',
   url:"https://azmina.com.br/penhas-saiba-mais/",
   type: "Aplicativo",
-  category: "Acolhimento e Provas"
+  category: "Acolhimento e Produção de Provas"
   }
 ]
