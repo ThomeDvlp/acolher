@@ -8,7 +8,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import Logo from "../../assets/images/logo-acolher.png";
-import EmergencyButton from "../../assets/images/emergency-button.png";
+import EmergencyButton from "../../assets/images/emergency-button.svg";
 import BannerFooter from "../../assets/images/banner-footer.png";
 
 export const About = () => {
@@ -31,17 +31,24 @@ export const About = () => {
       <Flex w="100%" mb="100px" bg="white" p="32px 32px" position="relative">
         <VStack w="100%">
           <Image src={Logo} pb="32px" />
-          <Heading as="h4" textAlign="center" fontSize="24px" mb='30px'>
+          <Heading as="h4" textAlign="center" fontSize="24px" mb="30px">
             Quem Somos
           </Heading>
           <Text as="p" textAlign="start" maxW="800px" p="5px">
-          A ausência de suporte judiciário, a falta de proteção à vítima, a reprovação social e até o desconhecimento sobre como agir após uma agressão são alguns dos motivos que causam a desistência das denúncias. 
+            A ausência de suporte judiciário, a falta de proteção à vítima, a
+            reprovação social e até o desconhecimento sobre como agir após uma
+            agressão são alguns dos motivos que causam a desistência das
+            denúncias.
           </Text>
-          <Text as="p" textAlign="start" maxW="800px" p='5px'>
-          A partir disso, o projeto aColher nasce com o objetivo de conectar mulheres vítimas de violência com Instituições confiáveis, que tem o propósito de prestar assistência, seja psicológica, jurídica ou financeira.
+          <Text as="p" textAlign="start" maxW="800px" p="5px">
+            A partir disso, o projeto aColher nasce com o objetivo de conectar
+            mulheres vítimas de violência com Instituições confiáveis, que tem o
+            propósito de prestar assistência, seja psicológica, jurídica ou
+            financeira.
           </Text>
-          <Text as="p" textAlign="start" maxW="800px" p='5px'>
-          Assim, imaginamos o quão difícil foi chegar até aqui, mas não tenha medo, nós vamos te ajudar.
+          <Text as="p" textAlign="start" maxW="800px" p="5px">
+            Assim, imaginamos o quão difícil foi chegar até aqui, mas não tenha
+            medo, nós vamos te ajudar.
           </Text>
           <Text color="pink.500" p="32px 0" textAlign="center">
             apoio • acolhimento • união • esperança
@@ -52,11 +59,9 @@ export const About = () => {
                 <Image
                   src={EmergencyButton}
                   alt="Botão de emergência"
-                  border="1px"
-                  borderRadius="100%"
-                  borderColor="pink.500"
                   w={["200px", "100px", "100px"]}
                   mr={["0", "0", "50px"]}
+                  ml="10px"
                 ></Image>
               </Box>
               <VStack
