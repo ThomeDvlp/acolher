@@ -1,14 +1,4 @@
-import { useState } from "react";
-import {
-  Flex,
-  Box,
-  Image,
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  Button,
-  Text,
-} from "@chakra-ui/react";
+import { Flex, Box, Image, Button, Text } from "@chakra-ui/react";
 import Logo from "../../assets/images/logo-acolher.png";
 import EmergencyButton from "../../assets/images/emergency-button.svg";
 import HeaderBanner from "../../assets/images/banner-header.png";
@@ -34,7 +24,7 @@ export const Header = () => {
 
         <Text
           m="0 auto"
-          position="absolute"   
+          position="absolute"
           bottom="10px"
           color="white"
           textAlign="center"
@@ -42,9 +32,8 @@ export const Header = () => {
           maxW="40ch"
           p="0 24px"
         >
-          Bem-vinda, encontre uma rede de apoio. <br/>É rápido e fácil.
+          Bem-vinda, encontre uma rede de apoio. <br />É rápido e fácil.
         </Text>
-        
       </Flex>
       <Box
         as="nav"

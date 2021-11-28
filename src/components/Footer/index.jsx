@@ -1,12 +1,4 @@
-import {
-  Container,
-  HStack,
-  Flex,
-  Box,
-  Button,
-  Text,
-  Link,
-} from "@chakra-ui/react";
+import { HStack, Flex, Box, Text, Link } from "@chakra-ui/react";
 import { DownloadIcon } from "@chakra-ui/icons";
 import { About } from "../About";
 
