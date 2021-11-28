@@ -1,22 +1,16 @@
-import { Box, Image, Badge, StarIcon } from "@chakra-ui/react"
+import { Box, Badge,Flex } from "@chakra-ui/react"
 
-// Sample card from Airbnb
+export default function Card() {
 
-export default function AirbnbExample() {
-  const property = {
-    imageUrl: "https://bit.ly/2Z4KKcF",
-    imageAlt: "Rear view of modern home with pool",
-    beds: 3,
-    baths: 2,
+
+  const props = {
     title: "Modern home in city center in the heart of historic Los Angeles",
-    formattedPrice: "$1,900.00",
-    reviewCount: 34,
-    rating: 4,
+    portal: "Portal ",
   }
 
   return (
-    <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={property.imageUrl} alt={property.imageAlt} />
+    <Box bg="Grey" color="white"  borderWidth="10px" borderRadius="10">
+      
 
       <Box p="6">
         <Box display="flex" alignItems="baseline">
@@ -24,39 +18,40 @@ export default function AirbnbExample() {
             New
           </Badge>
           <Box
-            color="gray.500"
+            color="white"
             fontWeight="semibold"
             letterSpacing="wide"
-            fontSize="xs"
+            fontSize="sm"
             textTransform="uppercase"
             ml="2"
           >
-            {property.beds} beds &bull; {property.baths} baths
+            {props.beds} beds &bull; {props.baths} baths
           </Box>
         </Box>
 
-        <Box
-          mt="1"
+        <Flex
+          mt="6"
           fontWeight="semibold"
           as="h4"
           lineHeight="tight"
           isTruncated
         >
-          {property.title}
-        </Box>
+          {props.title}
+        </Flex>
 
-        <Box>
-          {property.formattedPrice}
+        <Box display= "flex" justifyContent= "space-around">
+          {props.portal}
           <Box as="span" color="gray.600" fontSize="sm">
-            / wk
+            2
+          </Box>
+          <Box as="span" color="gray.600" fontSize="sm">
+            Aceessar a página 
           </Box>
         </Box>
 
         <Box display="flex" mt="2" alignItems="center">
           
-          <Box as="span" ml="2" color="gray.600" fontSize="sm">
-            {property.reviewCount} reviews
-          </Box>
+          
         </Box>
       </Box>
     </Box>
